@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label"
 import { Switch } from "@/components/ui/switch"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { storage, type UserSettings } from "@/lib/storage"
+import { applyTheme } from "@/lib/theme"
 import { User, Palette, Bell, Info, LogOut, Cloud } from "lucide-react"
 import {
   Dialog,
@@ -26,7 +27,12 @@ export function ProfilePage() {
   const [tempAvatar, setTempAvatar] = useState(settings.avatar || "")
 
   useEffect(() => {
+    applyTheme(settings.themeColor as any)
+  }, [])
+
+  useEffect(() => {
     storage.saveSettings(settings)
+    applyTheme(settings.themeColor as any)
   }, [settings])
 
   const handleLogin = () => {
