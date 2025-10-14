@@ -71,9 +71,8 @@ export function HomePage() {
   return (
     <div className="max-w-lg mx-auto p-6 space-y-6">
       {/* Header */}
-      <div className="text-center pt-8 pb-4">
+      <div className="text-center pt-8 pb-2">
         <h1 className="text-4xl font-bold text-primary mb-2">噗噗</h1>
-        <p className="text-sm text-muted-foreground">记录你的健康习惯</p>
       </div>
 
       {/* Main Content */}

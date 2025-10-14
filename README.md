@@ -1,30 +1,53 @@
-# Poop tracker app
+# 噗噗 - 健康习惯追踪应用
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/wecles-projects/v0-poop-tracker-app) [![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/XiQKloaILmg)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/wecles-projects/v0-poop-tracker-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/XiQKloaILmg)
+## 项目简介
 
-## Overview
+"噗噗"是一款健康习惯追踪应用，帮助用户记录和统计如厕时间，培养良好的生活习惯。通过有趣的方式让健康管理变得轻松愉快。
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 项目背景
 
-## Deployment
+良好的排便习惯是健康生活的重要组成部分。通过记录和分析如厕数据，用户可以：
+- 了解自己的身体规律
+- 发现潜在的健康问题
+- 培养规律的生活习惯
+- 用轻松有趣的方式关注健康
 
-Your project is live at:
+## 主要功能
 
-**[https://vercel.com/wecles-projects/v0-poop-tracker-app](https://vercel.com/wecles-projects/v0-poop-tracker-app)**
+### 🏠 首页
+- 显示最近一次记录
+- 一键开始/结束计时
+- 实时计时器显示
+- 自动保存记录
 
-## Build your app
+### 📅 日历
+- 月度统计概览（总次数、补卡次数）
+- 可视化日历视图，标记有记录的日期
+- 查看每日详细记录（时间、时长、地点）
+- 快速跳转到月度汇总
 
-Continue building your app on:
+### 📊 月度汇总
+- 支持多种视图：每日/每周/每月/每年
+- 灵活的时间选择器
+- 详细统计数据：
+  - 总次数和平均次数
+  - 总时长和平均时长
+  - 最长和最短记录
 
-**[https://v0.app/chat/projects/XiQKloaILmg](https://v0.app/chat/projects/XiQKloaILmg)**
+### 👤 我的
+- 用户登录/注销（头像和昵称设置）
+- 主题颜色自定义（6种可爱配色）
+- 每日提醒设置（支持震动和声音）
+- 云端同步入口（为未来排行榜功能预留）
+- 关于信息
 
-## How It Works
+## 🚀 未来计划
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- [ ] 云端数据同步
+- [ ] 用户排行榜功能
+- [ ] 数据导出功能
+- [ ] 更多统计图表
+- [ ] 健康建议和提醒
+- [ ] React Native 移动端应用
