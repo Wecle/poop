@@ -1,9 +1,0 @@
-{
-  "name": "poop",
-  "installCommand": "pnpm install",
-  "buildCommand": "pnpm build",
-  "assets": {
-    "directory": "./out",
-    "notFoundStrategy": "404Page"
-  }
-}
